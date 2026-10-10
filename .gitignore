@@ -1,0 +1,70 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### BQP: dữ liệu chạy thật, khóa, log — không bao giờ đưa lên repo ###
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+app-keys.json
+app-keys.json.tmp
+app.lock
+bqp-khoa-khoi-phuc*.txt
+backups/
+imports/
+logs/
+*.log
+
+### Gói phát hành và file đóng gói ###
+*.jar
+*.exe
+*.rar
+*.zip
+*.bak
+PhanMemThamDinh_Application_Release/
+
+### Công cụ cục bộ ###
+.claude/
+node_modules/
+
+### Tai lieu noi bo (ke hoach, bao cao, ghi chu) - khong dua len repo ###
+*.md
+
+### File Excel: chi cho phep bieu mau, chan moi file so lieu ###
+*.xlsx
+*.xls
+!src/main/resources/static/PHU LUC KEM THEO HUONG DAN CUA BO QUOC PHONG.xlsx
+
+### Bai test (giu tren may, khong dua len repo) ###
+src/test/
